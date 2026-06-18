@@ -1,0 +1,4 @@
+if SHIELD_P0_06_TEST
+config ZMK_KEYBOARD_NAME
+    default "P0 06 Test"
+endif
