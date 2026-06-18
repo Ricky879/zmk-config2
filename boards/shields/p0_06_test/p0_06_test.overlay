@@ -10,11 +10,12 @@
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
+        transform = <&default_transform>;
     };
 
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-direct";
-        input-gpios = <&gpio0 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+        input-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
     };
 
     default_transform: matrix_transform {
